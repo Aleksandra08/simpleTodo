@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    background: #BEE0E4;
+}
+
+.title {
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.todo-form {
+    width: 600px;
+}
+
+.todo-field {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+}
+
+.btn {
+    width: 150px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background: #2A38A3;
+    color: white;
+}
